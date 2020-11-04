@@ -57,7 +57,6 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,md,ts,scss,json,html}": "prettier --write",
-    "*.{js,ts}": "npm run lint:fix"
+    "*.{js,css,md,ts,scss,json,html}": "prettier --write"
   }
 }
